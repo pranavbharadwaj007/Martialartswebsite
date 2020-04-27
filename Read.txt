@@ -1,0 +1,1 @@
+In this project i have used node.js for javascript part and created templates using pug i have used css for styking.This website takes the contact details from the users and displays on the node terminal. 
