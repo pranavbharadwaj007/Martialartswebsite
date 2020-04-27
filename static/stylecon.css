@@ -1,0 +1,33 @@
+h1{
+    color: rgb(127, 42, 148);
+    text-align: center;
+    margin: 13px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myinput{
+    border-radius: 23px;
+    border: 2px solid rgb(125, 73, 136);
+    font-size: 17px;
+    width: 40%;
+    margin: 4px;
+    padding: 8px 64px;
+    color: rgb(188, 90, 207);
+}
+.btn{
+    cursor: pointer;
+    margin:12px;
+    padding: 10px 16px;
+    font-size: 15px;
+    border: 2px solid purple;
+    border-radius: 14px;
+    background-image: radial-gradient(rgb(214, 177, 235),rgb(245, 151, 225));
+}
+.con{
+    min-height: 70vh;
+}

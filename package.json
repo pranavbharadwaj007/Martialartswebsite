@@ -1,0 +1,15 @@
+{
+  "name": "pranav-martialartswebsite",
+  "version": "1.0.0",
+  "description": "it ia website of a startup owened by pranav were the company teaches many martial arts yoga and fitness",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pranav bharadwaj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

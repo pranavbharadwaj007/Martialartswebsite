@@ -1,0 +1,71 @@
+doctype html
+html
+  
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/images/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/aboutus") Aboutus]
+            li #[a(href="/services") services]
+            li #[a(href="/contact") contactus]
+            
+        
+    section#intro
+        div Welcome to Pranavs Martialarts Academy
+        div#ip South Asia's biggest academy
+        
+
+    section#mission
+        h2 Our Top Courses
+        div.card
+            h3 Taekwondo
+            div.card-box
+                div.card-img
+                    img(src="/static/images/karate.png")
+                div.card-content
+                    p 
+                        h4 Taekwondo, Tae Kwon Do or Taekwon-Do is a Korean martial art, characterized by its emphasis on head-height kicks, jumping and spinning kicks, and fast kicking techniques
+                    
+        div.card
+            h3 KickBoxing
+             div.card-box
+                div.card-img
+                    img(src="/static/images/kick.png")
+                div.card-content
+                    p 
+                        h4 Kickboxing is a group of stand-up combat sports based on kicking and punching, historically developed from karate mixed with boxing.increase spirit.
+                
+                   
+        div.card
+            h3 Yoga
+             div.card-box
+                div.card-img
+                    img(src="/static/images/yoga.png")
+                div.card-content
+                    p 
+                        h4 Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body. It is an art and scince of healthy living. 
+                
+                    
+    section#sponsor
+        h2 Our Sponsors
+        div#sponsors1
+            img(src="/static/images/client1.png",alt="sponsor1",class="sp")
+        
+            img(src="/static/images/client2.png",alt="sponsor1",class="sp")
+            img(src="/static/images/logo.jpg",alt="sponsor1",class="sp")
+            img(src="/static/images/client4.png",alt="sponsor1",class="sp")
+            img(src="/static/images/client5.png",alt="sponsor1",class="sp")
+            img(src="/static/images/client6.png",alt="sponsor1",class="sp")
+            
+    footer#footer
+        | Copyright © 2020 PranavsMartialartacademy.com
+        div#logo1
+                img(src="/static/images/logo.png")
+
+    script
+      include ../static/index.js
